@@ -1,26 +1,26 @@
 public class nodoArbol {
 
-    private int clave;
+    private String clave;
     private nodoArbol izq;
     private nodoArbol der;
     public nodoArbol(){
-        clave =0;//clase equipo
+        clave ="";//clase equipo
         izq=null;
         der=null;
     }
-    public nodoArbol(int dato){
+    public nodoArbol(String dato){
         clave =dato;
         izq=null;
         der=null;
     }
 
-    public nodoArbol(int dato, nodoArbol izq, nodoArbol der){
+    public nodoArbol(String dato, nodoArbol izq, nodoArbol der){
         clave =dato;
         this.izq=izq;
         this.der=der;
     }
 
-    public int getClave() {
+    public String getClave() {
         return clave;
     }
 

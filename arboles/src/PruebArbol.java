@@ -1,5 +1,5 @@
 public class PruebArbol {
-   static int sumaClaves (nodoArbol arbol) {
+   /*static int sumaClaves (nodoArbol arbol) {
         int resul;
         if (arbol != null){
             resul = arbol.getClave() + sumaClaves (arbol.getIzq()) + sumaClaves (arbol.getDer()) ;
@@ -30,5 +30,5 @@ public class PruebArbol {
             clavesNiveles (arbol.getIzq(), n+1);
             clavesNiveles (arbol.getDer(), n+1);
         }
-    }
+    }*/
 }
